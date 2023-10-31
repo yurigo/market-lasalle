@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3e9143a-357b-4c56-a44c-680cc863e94f" name="Changes" comment="Add bootstrap">
-      <change afterPath="$PROJECT_DIR$/src/business/consumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/business/consumer/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/business/consumer/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/business/product/Perishable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/business/product/Product.java" afterDir="false" />
+    <list default="true" id="c3e9143a-357b-4c56-a44c-680cc863e94f" name="Changes" comment="add calculatePrice&#10;&#10;- add createProduct and createExpiringProduct&#10;- add calculatePrice&#10;- add findCostumer&#10;- add findProduct&#10;- add calculateDiscountPrice (Consumer, Student, Profesor)&#10;- add getPrice (Perisable)&#10;- add abstract class Consumer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/business/MarketManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/MarketManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/consumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/consumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/consumer/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/consumer/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/consumer/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/consumer/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/product/Perishable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/product/Perishable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/product/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -37,13 +40,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -76,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698418063246</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add business">
+      <created>1698419788706</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698419788706</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add createProduct and createExpiringProduct">
+      <created>1698419829049</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698419829049</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,17 +111,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello world Market" />
     <MESSAGE value="Add bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add bootstrap" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/business/MarketManager.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="add business" />
+    <MESSAGE value="add createProduct and createExpiringProduct" />
+    <MESSAGE value="add calculatePrice&#10;&#10;- add createProduct and createExpiringProduct&#10;- add calculatePrice&#10;- add findCostumer&#10;- add findProduct&#10;- add calculateDiscountPrice (Consumer, Student, Profesor)&#10;- add getPrice (Perisable)&#10;- add abstract class Consumer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add calculatePrice&#10;&#10;- add createProduct and createExpiringProduct&#10;- add calculatePrice&#10;- add findCostumer&#10;- add findProduct&#10;- add calculateDiscountPrice (Consumer, Student, Profesor)&#10;- add getPrice (Perisable)&#10;- add abstract class Consumer" />
   </component>
 </project>

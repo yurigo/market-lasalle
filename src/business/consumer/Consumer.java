@@ -1,6 +1,12 @@
 package business.consumer;
 
-public class Consumer {
+import business.product.Product;
+
+abstract public class Consumer {
+    public String getLogin() {
+        return login;
+    }
+
     private String login;
 
     public Consumer(String login) {
@@ -8,4 +14,9 @@ public class Consumer {
     }
 
 
+    public boolean hasName(String login) {
+        return login.equalsIgnoreCase(this.login);
+    }
+
+    abstract public Double calculateDiscountedPrice(Product p);
 }
