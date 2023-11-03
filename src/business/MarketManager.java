@@ -72,28 +72,30 @@ public class MarketManager {
     }
 
     private Consumer findConsumerByLogin(String login) {
-        for (Consumer consumer : consumers){
-            if (consumer.hasName(login)){
-                return consumer;
-            }
-        }
-        return null;
-    }
-
-    private Product findProductByName(String name){
-
-//        for (int i = 0 ; i < products.stream().count() ; i++){
-//           if (name.equalsIgnoreCase(products.get(i).getName())){
-//                return products.get(i);
+//        for (Consumer consumer : consumers){
+//            if (consumer.hasName(login)){
+//                return consumer;
 //            }
 //        }
 //        return null;
 
-        for (Product product : products){
-            if (product.hasName(name)){
-                return product;
-            }
-        }
-        return null;
+        return consumers.stream()
+                .filter(consumer -> consumer.hasName(login))
+                .findFirst()
+                .orElse(null);
+    }
+
+    private Product findProductByName(String name){
+
+//        for (Product product : products){
+//            if (product.hasName(name)){
+//                return product;
+//            }
+//        }
+
+        return products.stream()
+                .filter(product -> product.hasName(name))
+                .findFirst()
+                .orElse(null);
     }
 }
