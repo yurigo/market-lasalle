@@ -68,7 +68,7 @@ public class MarketManager {
         System.out.println(product.getName());
         System.out.println(consumer.getLogin());
 
-        return consumer.calculateDiscountedPrice(product);
+        return consumer.calculateDiscountedPrice(product.getPrice());
     }
 
     private Consumer findConsumerByLogin(String login) {

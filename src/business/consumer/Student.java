@@ -10,11 +10,11 @@ public class Student extends Consumer{
     }
 
     @Override
-    public Double calculateDiscountedPrice(Product p) {
-        Double diezPorCiento = p.getPrice() * 10 / 100;
+    public Double calculateDiscountedPrice(Double  price) {
+        Double diezPorCiento = price * 10 / 100;
 
-        if (this.area.equalsIgnoreCase("ingenieria")) return p.getPrice() - diezPorCiento;
-        else return p.getPrice() + diezPorCiento;
+        if (this.area.equalsIgnoreCase("ingenieria")) return price - diezPorCiento;
+        else return price + diezPorCiento;
 
     }
 }

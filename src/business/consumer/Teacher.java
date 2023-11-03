@@ -26,8 +26,8 @@ public class Teacher extends Consumer  {
     }
 
     @Override
-    public Double calculateDiscountedPrice(Product p) {
-        if (this.experienceYears > 2) return p.getPrice() / 2;
-        else return p.getPrice();
+    public Double calculateDiscountedPrice(Double price) {
+        if (this.experienceYears > 2) return price / 2;
+        else return price;
     }
 }

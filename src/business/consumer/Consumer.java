@@ -18,5 +18,5 @@ abstract public class Consumer {
         return login.equalsIgnoreCase(this.login);
     }
 
-    abstract public Double calculateDiscountedPrice(Product p);
+    abstract public Double calculateDiscountedPrice(Double price);
 }
