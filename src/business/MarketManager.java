@@ -13,24 +13,25 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class MarketManager {
-    // TODO probably add attributes
-        ArrayList<Product> products;
-        // LinkedList<Product> products;
-//        ArrayList<Teacher> teachers;
-//        ArrayList<Student> students;
-        ArrayList<Consumer> consumers;
+    // TODO probably add attributes ✔️
+    ArrayList<Product> products;
+    // LinkedList<Product> products;
+    // ArrayList<Teacher> teachers;
+    // ArrayList<Student> students;
+    ArrayList<Consumer> consumers;
 
 
     public MarketManager() {
-        // TODO probably initialize said attributes
+        // TODO probably initialize said attributes ✔️
         // products = new ArrayList<Product>();
         products = new ArrayList<Product>();
-//        teachers = new ArrayList<Teacher>();
-//        students = new ArrayList<Student>();
+
+        // teachers = new ArrayList<Teacher>();
+        // students = new ArrayList<Student>();
         consumers = new ArrayList<Consumer>();
     }
 
-    // TODO all functionalities
+    // TODO all functionalities ✔️
     public void createProduct(String name, double weight, double price) {
         // creo un producto y lo persisto en memoria...
         Product p = new Product(name, weight, price);
@@ -58,7 +59,6 @@ public class MarketManager {
         // name va a ser el nombre del Producto
         // login va a ser el login del Consumer
 
-        // consumers.stream().filter(cousumer -> consumer.).findFirst().orElse(null);
         Product product = findProductByName(name);
         Consumer consumer = findConsumerByLogin(login);
 
