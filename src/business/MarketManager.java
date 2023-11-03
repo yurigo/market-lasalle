@@ -54,13 +54,13 @@ public class MarketManager {
         consumers.add(s);
     }
 
-    public double calculatePrice(String name, String login) {
+    public double calculatePrice(String productName, String userLogin) {
         // Assume name and login are unique and exist
         // name va a ser el nombre del Producto
         // login va a ser el login del Consumer
 
-        Product product = findProductByName(name);
-        Consumer consumer = findConsumerByLogin(login);
+        Product product = findProductByName(productName);
+        Consumer consumer = findConsumerByLogin(userLogin);
 
         if (product == null) return 0.0;
         if (consumer == null) return 0.0;
